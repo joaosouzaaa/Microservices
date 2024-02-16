@@ -15,13 +15,14 @@
     <Folder Include="Data\EntitiesMapping\" />
     <Folder Include="Data\DatabaseContexts\" />
     <Folder Include="Data\Repositories\" />
-    <Folder Include="DependencyInjection\" />
     <Folder Include="DataTransferObjects\" />
     <Folder Include="Interfaces\Mappers\" />
     <Folder Include="Interfaces\Repositories\" />
     <Folder Include="Interfaces\Services\" />
     <Folder Include="Mappers\" />
-    <Folder Include="Constants\" />
+    <Folder Include="Factories\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Settings\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
