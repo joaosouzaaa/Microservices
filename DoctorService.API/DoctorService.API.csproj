@@ -12,6 +12,17 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Data\EntitiesMapping\" />
+    <Folder Include="Data\DatabaseContexts\" />
+    <Folder Include="Data\Repositories\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="DataTransferObjects\" />
+    <Folder Include="Interfaces\Mappers\" />
+    <Folder Include="Interfaces\Repositories\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
