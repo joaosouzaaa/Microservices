@@ -22,7 +22,6 @@
 		<Folder Include="Interfaces\Mappers\" />
 		<Folder Include="Interfaces\Services\" />
 		<Folder Include="Mappers\" />
-		<Folder Include="Middlewares\" />
 		<Folder Include="Services\" />
 	</ItemGroup>
 
