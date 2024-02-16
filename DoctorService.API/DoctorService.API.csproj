@@ -18,14 +18,11 @@
 
 	<ItemGroup>
 		<Folder Include="Controllers\" />
-		<Folder Include="Data\Repositories\" />
 		<Folder Include="DataTransferObjects\" />
 		<Folder Include="Interfaces\Mappers\" />
-		<Folder Include="Interfaces\Repositories\" />
 		<Folder Include="Interfaces\Services\" />
 		<Folder Include="Mappers\" />
 		<Folder Include="Middlewares\" />
-		<Folder Include="Settings\" />
 		<Folder Include="Services\" />
 	</ItemGroup>
 
