@@ -1,5 +1,6 @@
 ﻿using DoctorService.API.Entities;
 using DoctorService.API.Enums;
+using DoctorService.API.Extensions;
 using FluentValidation;
 
 namespace DoctorService.API.Validators;

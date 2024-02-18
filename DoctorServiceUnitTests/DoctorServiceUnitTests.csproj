@@ -27,4 +27,9 @@
     <ProjectReference Include="..\DoctorService.API\DoctorService.API.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TestBuilders\" />
+    <Folder Include="ValidatorsTests\" />
+  </ItemGroup>
+
 </Project>
