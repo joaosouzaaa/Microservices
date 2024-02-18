@@ -21,9 +21,7 @@
 		<Folder Include="Controllers\" />
 		<Folder Include="DataTransferObjects\" />
 		<Folder Include="Interfaces\Mappers\" />
-		<Folder Include="Interfaces\Services\" />
 		<Folder Include="Mappers\" />
-		<Folder Include="Services\" />
 	</ItemGroup>
 
 </Project>
