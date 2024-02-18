@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Patient.Infrastructure.Interfaces.Repositories;
 using PatientService.API.Data.DatabaseContexts;
-using PatientService.API.Data.Interfaces.Repositories;
 using PatientService.API.Entities;
+using PatientService.API.Interfaces.Repositories;
 
 namespace PatientService.API.Data.Repositories;
 public sealed class PatientClientRepository(AppDbContext dbContext) : IPatientClientRepository, IPatientClientRepositoryFacade, IDisposable
