@@ -19,7 +19,6 @@
 
 	<ItemGroup>
 		<Folder Include="Controllers\" />
-		<Folder Include="Interfaces\Mappers\" />
 		<Folder Include="Interfaces\Services\" />
 		<Folder Include="Mappers\" />
 		<Folder Include="Services\" />
