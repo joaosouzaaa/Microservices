@@ -1,8 +1,8 @@
 ﻿using Moq;
-using Patient.ApplicationServices.Mappers;
 using PatientService.API.DataTransferObjects.ContactInfo;
 using PatientService.API.Entities;
 using PatientService.API.Interfaces.Mappers;
+using PatientService.API.Mappers;
 using PatientService.UnitTests.TestBuilders;
 
 namespace PatientService.UnitTests.MappersTests;

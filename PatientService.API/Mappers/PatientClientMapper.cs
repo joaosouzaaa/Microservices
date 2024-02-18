@@ -2,7 +2,7 @@
 using PatientService.API.Entities;
 using PatientService.API.Interfaces.Mappers;
 
-namespace Patient.ApplicationServices.Mappers;
+namespace PatientService.API.Mappers;
 public sealed class PatientClientMapper(IContactInfoMapper contactInfoMapper) : IPatientClientMapper
 {
     public PatientClient SaveToDomain(PatientClientSave patientClientSave) =>
