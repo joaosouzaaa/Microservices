@@ -18,7 +18,6 @@
 
 	<ItemGroup>
 		<Folder Include="Controllers\" />
-		<Folder Include="Data\Repositories\" />
 		<Folder Include="Interfaces\Mappers\" />
 		<Folder Include="Interfaces\Services\" />
 		<Folder Include="DataTransferObjects\" />
