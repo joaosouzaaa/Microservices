@@ -18,8 +18,11 @@ public static class DependencyInjectionHandler
         });
 
         services.AddSettingsDependencyInjection();
+        services.AddOptionsDependencyInjection(configuration);
         services.AddFilterDependencyInjection();
         services.AddRepositoriesDependencyInjection();
         services.AddValidatorsDependencyInjection();
+        services.AddMappersDependencyInjection();
+        services.AddServicesDependencyInjection();
     }
 }
