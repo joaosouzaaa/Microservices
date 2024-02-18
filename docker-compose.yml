@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  doctorservicepostgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: modularmonolith
+    ports:
+      - "5432:5432"
+
+  doctorservice.api:
+    image: ${DOCKER_REGISTRY-}doctorserviceapi
+    build:
+      context: .
+      dockerfile: DoctorService.API/Dockerfile
+    environment:
+      - DOCKER_ENVIROMENT=DOCTOR_DOCKER_ENV
+    depends_on:
+      - doctorservicepostgres

@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{42847734-048D-4E85-8902-45091B68BEAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorService.API", "DoctorService.API\DoctorService.API.csproj", "{6B8485B2-1194-4647-BDBF-21AFA699ED40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorService.API", "DoctorService.API\DoctorService.API.csproj", "{6B8485B2-1194-4647-BDBF-21AFA699ED40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorServiceUnitTests", "DoctorServiceUnitTests\DoctorServiceUnitTests.csproj", "{E45B9425-4265-40EE-8880-F5992D8FD741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorServiceUnitTests", "DoctorServiceUnitTests\DoctorServiceUnitTests.csproj", "{E45B9425-4265-40EE-8880-F5992D8FD741}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9364D6D0-6867-4A0C-9C0E-16B805C2105D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{E45B9425-4265-40EE-8880-F5992D8FD741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E45B9425-4265-40EE-8880-F5992D8FD741}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E45B9425-4265-40EE-8880-F5992D8FD741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9364D6D0-6867-4A0C-9C0E-16B805C2105D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9364D6D0-6867-4A0C-9C0E-16B805C2105D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9364D6D0-6867-4A0C-9C0E-16B805C2105D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9364D6D0-6867-4A0C-9C0E-16B805C2105D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
