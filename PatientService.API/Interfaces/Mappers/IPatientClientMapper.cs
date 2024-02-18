@@ -1,7 +1,7 @@
-﻿using Patient.ApplicationServices.DataTransferObjects.PatientClient;
-using Patient.Domain.Entities;
+﻿using PatientService.API.DataTransferObjects.PatientClient;
+using PatientService.API.Entities;
 
-namespace Patient.ApplicationServices.Intefaces.Mappers;
+namespace PatientService.API.Interfaces.Mappers;
 public interface IPatientClientMapper
 {
     PatientClient SaveToDomain(PatientClientSave patientClientSave);
