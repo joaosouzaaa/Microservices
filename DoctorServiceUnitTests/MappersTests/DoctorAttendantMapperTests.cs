@@ -1,9 +1,9 @@
-﻿using Doctor.ApplicationService.Mappers;
-using DoctorService.API.DataTransferObjects.Certification;
+﻿using DoctorService.API.DataTransferObjects.Certification;
 using DoctorService.API.DataTransferObjects.Schedule;
 using DoctorService.API.DataTransferObjects.Speciality;
 using DoctorService.API.Entities;
 using DoctorService.API.Interfaces.Mappers;
+using DoctorService.API.Mappers;
 using DoctorService.API.Settings.PaginationSettings;
 using DoctorServiceUnitTests.TestBuilders;
 using Moq;

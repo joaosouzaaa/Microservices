@@ -1,7 +1,7 @@
 ﻿using DoctorService.API.DataTransferObjects.DoctorAttendant;
 using DoctorService.API.Settings.PaginationSettings;
 
-namespace Doctor.ApplicationService.Interfaces.Services;
+namespace DoctorService.API.Interfaces.Services;
 public interface IDoctorAttendantService
 {
     Task<bool> AddAsync(DoctorAttendantSave doctorAttendantSave);

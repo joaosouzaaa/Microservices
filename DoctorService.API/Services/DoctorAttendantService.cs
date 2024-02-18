@@ -1,5 +1,4 @@
-﻿using Doctor.ApplicationService.Interfaces.Services;
-using DoctorService.API.DataTransferObjects.DoctorAttendant;
+﻿using DoctorService.API.DataTransferObjects.DoctorAttendant;
 using DoctorService.API.Entities;
 using DoctorService.API.Enums;
 using DoctorService.API.Extensions;
@@ -11,7 +10,7 @@ using DoctorService.API.Services.BaseServices;
 using DoctorService.API.Settings.PaginationSettings;
 using FluentValidation;
 
-namespace Doctor.ApplicationService.Services;
+namespace DoctorService.API.Services;
 public sealed class DoctorAttendantService : BaseService<DoctorAttendant>, IDoctorAttendantService
 {
     private readonly IDoctorAttendantRepository _doctorAttendantRepository;
@@ -19,8 +18,8 @@ public sealed class DoctorAttendantService : BaseService<DoctorAttendant>, IDoct
     private readonly ISpecialityServiceFacade _specialityServiceFacade;
 
     public DoctorAttendantService(IDoctorAttendantRepository doctorAttendantRepository, IDoctorAttendantMapper doctorAttendantMapper,
-                                  ISpecialityServiceFacade specialityServiceFacade, INotificationHandler notificationHandler, 
-                                  IValidator<DoctorAttendant> validator) 
+                                  ISpecialityServiceFacade specialityServiceFacade, INotificationHandler notificationHandler,
+                                  IValidator<DoctorAttendant> validator)
                                   : base(notificationHandler, validator)
     {
         _doctorAttendantRepository = doctorAttendantRepository;

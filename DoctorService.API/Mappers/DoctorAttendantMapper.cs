@@ -4,7 +4,7 @@ using DoctorService.API.Entities;
 using DoctorService.API.Interfaces.Mappers;
 using DoctorService.API.Settings.PaginationSettings;
 
-namespace Doctor.ApplicationService.Mappers;
+namespace DoctorService.API.Mappers;
 public sealed class DoctorAttendantMapper(ICertificationMapper certificationMapper, IScheduleMapper scheduleMapper,
                                           ISpecialityMapper specialityMapper) : IDoctorAttendantMapper
 {
@@ -24,7 +24,7 @@ public sealed class DoctorAttendantMapper(ICertificationMapper certificationMapp
         doctorAttendant.BirthDate = DateOnly.FromDateTime(doctorAttendantUpdate.BirthDate);
         doctorAttendant.ExperienceYears = doctorAttendantUpdate.ExperienceYears;
         doctorAttendant.Name = doctorAttendantUpdate.Name;
-        
+
         certificationMapper.RequestToDomainUpdate(doctorAttendantUpdate.Certification, doctorAttendant.Certification);
     }
 

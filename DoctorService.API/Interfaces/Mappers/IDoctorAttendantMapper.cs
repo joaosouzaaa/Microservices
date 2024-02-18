@@ -1,5 +1,7 @@
-﻿using DoctorService.API.DataTransferObjects.DoctorAttendant;
+﻿using DoctorService.API.Arguments;
+using DoctorService.API.DataTransferObjects.DoctorAttendant;
 using DoctorService.API.Entities;
+using DoctorService.API.Settings.PaginationSettings;
 
 namespace DoctorService.API.Interfaces.Mappers;
 public interface IDoctorAttendantMapper
