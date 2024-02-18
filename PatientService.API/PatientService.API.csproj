@@ -7,13 +7,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.2" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<Folder Include="Controllers\" />
 		<Folder Include="Data\EntitiesMapping\" />
-		<Folder Include="Data\DatabaseContexts\" />
 		<Folder Include="Data\Repositories\" />
 		<Folder Include="Interfaces\Mappers\" />
 		<Folder Include="Interfaces\Repositories\" />
