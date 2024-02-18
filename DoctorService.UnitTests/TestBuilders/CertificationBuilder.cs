@@ -1,7 +1,7 @@
 ﻿using DoctorService.API.DataTransferObjects.Certification;
 using DoctorService.API.Entities;
 
-namespace DoctorServiceUnitTests.TestBuilders;
+namespace DoctorService.UnitTests.TestBuilders;
 public sealed class CertificationBuilder
 {
     private readonly int _id = 123;

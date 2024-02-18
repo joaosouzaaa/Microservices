@@ -2,7 +2,7 @@
 using DoctorService.API.DataTransferObjects.DoctorAttendant;
 using DoctorService.API.Entities;
 
-namespace DoctorServiceUnitTests.TestBuilders;
+namespace DoctorService.UnitTests.TestBuilders;
 public sealed class DoctorAttendantBuilder
 {
     private readonly int _id = 123;

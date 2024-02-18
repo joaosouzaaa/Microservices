@@ -1,7 +1,7 @@
 ﻿using DoctorService.API.DataTransferObjects.Speciality;
 using DoctorService.API.Entities;
 
-namespace DoctorServiceUnitTests.TestBuilders;
+namespace DoctorService.UnitTests.TestBuilders;
 public sealed class SpecialityBuilder
 {
     private readonly int _id = 12;

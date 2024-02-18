@@ -7,12 +7,12 @@ using DoctorService.API.Interfaces.Services;
 using DoctorService.API.Interfaces.Settings;
 using DoctorService.API.Services;
 using DoctorService.API.Settings.PaginationSettings;
-using DoctorServiceUnitTests.TestBuilders;
+using DoctorService.UnitTests.TestBuilders;
 using FluentValidation;
 using FluentValidation.Results;
 using Moq;
 
-namespace DoctorServiceUnitTests.ServicesTests;
+namespace DoctorService.UnitTests.ServicesTests;
 public sealed class DoctorAttendantServiceTests
 {
     private readonly Mock<IDoctorAttendantRepository> _doctorAttendantRepositoryMock;

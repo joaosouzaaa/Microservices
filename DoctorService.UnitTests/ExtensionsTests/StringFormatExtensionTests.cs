@@ -1,6 +1,6 @@
 ﻿using DoctorService.API.Extensions;
 
-namespace DoctorServiceUnitTests.ExtensionsTests;
+namespace DoctorService.UnitTests.ExtensionsTests;
 public sealed class StringFormatExtensionTests
 {
     [Fact]

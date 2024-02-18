@@ -1,7 +1,7 @@
 ﻿using Bogus;
 using DoctorService.API.Settings.NotificationSettings;
 
-namespace DoctorServiceUnitTests.SettingsTests;
+namespace DoctorService.UnitTests.SettingsTests;
 public sealed class NotificationHandlerTests
 {
     private readonly NotificationHandler _notificationHandler;

@@ -4,12 +4,12 @@ using DoctorService.API.Interfaces.Mappers;
 using DoctorService.API.Interfaces.Repositories;
 using DoctorService.API.Interfaces.Settings;
 using DoctorService.API.Services;
-using DoctorServiceUnitTests.TestBuilders;
+using DoctorService.UnitTests.TestBuilders;
 using FluentValidation;
 using FluentValidation.Results;
 using Moq;
 
-namespace DoctorServiceUnitTests.ServicesTests;
+namespace DoctorService.UnitTests.ServicesTests;
 public sealed class SpecialityServiceTests
 {
     private readonly Mock<ISpecialityRepository> _specialityRepositoryMock;

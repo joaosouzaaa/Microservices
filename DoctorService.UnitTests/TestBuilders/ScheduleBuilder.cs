@@ -1,7 +1,7 @@
 ﻿using DoctorService.API.DataTransferObjects.Schedule;
 using DoctorService.API.Entities;
 
-namespace DoctorServiceUnitTests.TestBuilders;
+namespace DoctorService.UnitTests.TestBuilders;
 public sealed class ScheduleBuilder
 {
     private readonly int _id = 123;

@@ -1,7 +1,7 @@
 ﻿using DoctorService.API.Enums;
 using DoctorService.API.Extensions;
 
-namespace DoctorServiceUnitTests.ExtensionsTests;
+namespace DoctorService.UnitTests.ExtensionsTests;
 public sealed class MessageExtensionTests
 {
     [Fact]

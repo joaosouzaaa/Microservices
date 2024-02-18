@@ -1,6 +1,6 @@
 ﻿using DoctorService.API.Entities;
 using DoctorService.API.Mappers;
-using DoctorServiceUnitTests.TestBuilders;
+using DoctorService.UnitTests.TestBuilders;
 
 namespace UnitTests.MappersTests.Doctor;
 public sealed class SpecialityMapperTests

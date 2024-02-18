@@ -1,7 +1,7 @@
 ﻿using DoctorService.API.Validators;
-using DoctorServiceUnitTests.TestBuilders;
+using DoctorService.UnitTests.TestBuilders;
 
-namespace DoctorServiceUnitTests.ValidatorsTests;
+namespace DoctorService.UnitTests.ValidatorsTests;
 public sealed class DoctorAttendantValidatorTests
 {
     private readonly DoctorAttendantValidator _doctorAttendantValidator;

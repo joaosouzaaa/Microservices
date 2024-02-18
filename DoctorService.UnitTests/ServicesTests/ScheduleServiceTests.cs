@@ -3,10 +3,10 @@ using DoctorService.API.Entities;
 using DoctorService.API.Interfaces.Mappers;
 using DoctorService.API.Interfaces.Repositories;
 using DoctorService.API.Services;
-using DoctorServiceUnitTests.TestBuilders;
+using DoctorService.UnitTests.TestBuilders;
 using Moq;
 
-namespace DoctorServiceUnitTests.ServicesTests;
+namespace DoctorService.UnitTests.ServicesTests;
 public sealed class ScheduleServiceTests
 {
     private readonly Mock<IScheduleRepository> _scheduleRepositoryMock;

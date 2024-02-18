@@ -1,6 +1,6 @@
 ﻿using DoctorService.API.Contracts;
 
-namespace DoctorServiceUnitTests.TestBuilders;
+namespace DoctorService.UnitTests.TestBuilders;
 public sealed class ContractsBuilder
 {
     public static ContractsBuilder NewObject() =>

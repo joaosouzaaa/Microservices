@@ -5,7 +5,7 @@ using DoctorService.API.Entities;
 using DoctorService.API.Interfaces.Mappers;
 using DoctorService.API.Mappers;
 using DoctorService.API.Settings.PaginationSettings;
-using DoctorServiceUnitTests.TestBuilders;
+using DoctorService.UnitTests.TestBuilders;
 using Moq;
 
 namespace UnitTests.MappersTests.Doctor;

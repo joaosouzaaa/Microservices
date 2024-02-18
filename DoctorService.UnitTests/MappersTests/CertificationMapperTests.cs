@@ -1,7 +1,7 @@
 ﻿using DoctorService.API.Mappers;
-using DoctorServiceUnitTests.TestBuilders;
+using DoctorService.UnitTests.TestBuilders;
 
-namespace DoctorServiceUnitTests.MappersTests;
+namespace DoctorService.UnitTests.MappersTests;
 public sealed class CertificationMapperTests
 {
     private readonly CertificationMapper _certificationMapper;

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using DoctorService.API.Factories;
 
-namespace DoctorServiceUnitTests.FactoriesTests;
+namespace DoctorService.UnitTests.FactoriesTests;
 public sealed class ConnectionStringFactoryTests
 {
     [Fact]
