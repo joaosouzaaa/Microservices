@@ -1,9 +1,12 @@
+using PatientService.API.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 IConfiguration configuration = builder.Configuration;
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDependencyInjection(configuration);
 
 var app = builder.Build();
 

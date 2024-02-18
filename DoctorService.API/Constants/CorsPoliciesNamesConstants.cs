@@ -2,5 +2,5 @@
 
 public static class CorsPoliciesNamesConstants
 {
-    public const string CorsPolicy = "CorsPolicy";
+    public const string CorsPolicy = "DoctorCorsPolicy";
 }
