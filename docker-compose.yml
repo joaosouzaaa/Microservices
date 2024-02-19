@@ -6,9 +6,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 1234
-      POSTGRES_DB: modularmonolith
-    ports:
-      - "5432:5432"
+      POSTGRES_DB: doctorservice
 
   doctorservice.api:
     image: ${DOCKER_REGISTRY-}doctorserviceapi
@@ -19,3 +17,26 @@ services:
       - DOCKER_ENVIROMENT=DOCTOR_DOCKER_ENV
     depends_on:
       - doctorservicepostgres
+    ports:
+        - "5020:80"
+        - "5021:443"
+
+  patientservicepostgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: patientservice
+
+  patientservice.api:
+    image: ${DOCKER_REGISTRY-}patientserviceapi
+    build:
+      context: .
+      dockerfile: PatientService.API/Dockerfile
+    environment:
+      - DOCKER_ENVIROMENT=PATIENT_DOCKER_ENV
+    depends_on:
+      - patientservicepostgres
+    ports:
+        - "5030:80"
+        - "5031:443"
