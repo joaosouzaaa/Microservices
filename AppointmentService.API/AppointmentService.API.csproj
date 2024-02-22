@@ -15,7 +15,6 @@
     <Folder Include="Data\DatabaseContexts\" />
     <Folder Include="Data\EntitiesMapping\" />
     <Folder Include="Data\Repositories\" />
-    <Folder Include="Entities\" />
     <Folder Include="Middlewares\" />
     <Folder Include="DataTransferObjects\" />
   </ItemGroup>
