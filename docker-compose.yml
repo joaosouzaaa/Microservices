@@ -27,6 +27,7 @@ services:
       - DOCKER_ENVIROMENT=DOCTOR_DOCKER_ENV
     depends_on:
       - doctorservicepostgres
+      - rabbitmq
     ports:
         - "5020:80"
         - "5021:443"
@@ -47,6 +48,29 @@ services:
       - DOCKER_ENVIROMENT=PATIENT_DOCKER_ENV
     depends_on:
       - patientservicepostgres
+      - rabbitmq
     ports:
         - "5030:80"
         - "5031:443"
+
+  appointmentservicepostgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: appointmentservice
+
+  appointmentservice.api:
+    image: ${DOCKER_REGISTRY-}appointmentserviceapi
+    build:
+      context: .
+      dockerfile: AppointmentService.API/Dockerfile
+    environment:
+      - DOCKER_ENVIROMENT=APPOINTMENT_DOCKER_ENV
+    depends_on:
+      - appointmentservicepostgres
+      - rabbitmq
+    ports:
+        - "5040:80"
+        - "5041:443" 
+
