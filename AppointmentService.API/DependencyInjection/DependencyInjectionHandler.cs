@@ -23,5 +23,6 @@ public static class DependencyInjectionHandler
         services.AddPublishersDependencyInjection();
         services.AddMappersDependencyInjection();
         services.AddValidatorsDependencyInjection();
+        services.AddServicesDependencyInjection();
     }
 }
