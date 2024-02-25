@@ -20,8 +20,10 @@ public static class DependencyInjectionHandler
         services.AddSettingsDependencyInjection();
         services.AddFilterDependencyInjection();
         services.AddRepositoriesDependencyInjection();
+        services.AddOptionsDependencyInjection(configuration);
         services.AddValidatorsDependencyInjection();
         services.AddMappersDependencyInjection();
         services.AddServicesDependencyInjection();
+        services.AddConsumersDependencyInjection();
     }
 }
