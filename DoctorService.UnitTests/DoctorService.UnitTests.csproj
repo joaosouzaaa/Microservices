@@ -4,7 +4,6 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-
 		<IsPackable>false</IsPackable>
 		<IsTestProject>true</IsTestProject>
 	</PropertyGroup>
@@ -29,7 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="TestBuilders\" />
+		<Using Include="Xunit" />
 	</ItemGroup>
 
 </Project>
