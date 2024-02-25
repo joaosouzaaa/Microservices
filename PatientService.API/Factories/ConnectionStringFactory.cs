@@ -1,6 +1,4 @@
-﻿using PatientService.API.Factories;
-
-namespace PatientService.API.Factories;
+﻿namespace PatientService.API.Factories;
 public static class ConnectionStringFactory
 {
     public static string GetConnectionString(this IConfiguration configuration)
