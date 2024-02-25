@@ -21,7 +21,6 @@
 		<Folder Include="Controllers\" />
 		<Folder Include="Interfaces\Mappers\" />
 		<Folder Include="Interfaces\Services\" />
-		<Folder Include="DataTransferObjects\" />
 		<Folder Include="Mappers\" />
 		<Folder Include="Validators\" />
 		<Folder Include="Services\" />
